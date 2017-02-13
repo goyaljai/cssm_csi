@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body {
+    background-color: #fffff;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.first{
+	background-image: url("http://localhost/project/first.jpg");
+    background-repeat: no-repeat;
+     background-position: center; 
+    background-size: contain;
+    background-attachment: fixed;
+    height:550px;
+}
+.firsttext{
+	margin: 10% auto auto auto; /* 5% from the top, 15% from the bottom and centered */
+    border-radius: 5%;
+    width: 30%; 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.3); 
+   }
+
+h2{
+text-align:center;
+padding:1%;
+margin: 10% auto 0% auto;
+font-family: 'Raleway', sans-serif;
+font-size: 30px;
+color: white;
+padding:4%;
+}
+
+
+.study{
+		background-image: url("http://localhost/project/study.png");
+    background-repeat: no-repeat;
+     background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+        overflow: auto;
+}
+
+.container{
+	margin: 5% auto auto auto; /* 5% from the top, 15% from the bottom and centered */
+    border-radius: 5%;
+
+    width: 80%; 
+    padding:1%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.3); 
+   }
+
+   .drop {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 1% 5%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.contact{
+		background-image: url("http://localhost/project/contact-us.jpg");
+    background-repeat: no-repeat;
+     background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+    height:550px;
+}
+.about{
+		background-image: url("http://localhost/project/about.jpg");
+    background-repeat: no-repeat;
+     background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+}
+
+
+button {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+     margin: 1% 5%;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+}
+
+label{
+    color: white;
+    font-size: 15px;
+    margin: 1% 5%;
+font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+.heading {
+   	
+    padding: 1%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
+
+.detail {
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    color: white;
+    font-size: 18px;
+    
+}
+.detail2 {
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25%;
+    color: white;
+    font-size: 18px;
+    
+}
+.one {
+	padding: 1%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); 
+    width: 45%;
+    display: block;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    border-radius: 5%;
+}
+.two {
+	padding: 1%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); 
+    width: 45%;
+    float: right;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+        text-align: center;
+        border-radius: 5%;
+}
+.three {
+    padding: 1%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); 
+    width: 100%;
+    float: center;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+        text-align: center;
+        border-radius: 5%;
+}
+
+ul{
+    background-color:   #A9A9A9;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #ffffff;
+}
+
+ a.acti:hover{
+    background-color: white;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+       
+}
+ a.acti:visited{
+    background-color: white;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+       
+}
+
+a:link, a:visited {
+    background-color:   #A9A9A9 ;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color:#A9A9A9;
+    padding: 5px 10px;
+}
+
+
+.select-style {
+    border: 3px solid #A9A9A9;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #ffffff url("http://localhost/project/down.png") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+     margin: auto;
+     display: block;
+     text-align: center;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.nav{
+    width: 100%;
+}
+
+.select-style{
+  display: none;
+}
+
+
+
+table {
+    border-collapse: separate;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+th,td {
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color:   #DCDCDC;
+    color: black;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color:       #A9A9A9 ;
+    color: black;
+    text-align: center;
+}
+
+th {
+    background-color: #DC7633 ;
+    color: white;
+}
+
+
+@media only screen and (min-width: 50px) and (max-width: 800px) {
+      nav ul     { display: none; }
+  .select-style{ display: inline-block; }
+.detail{
+    font-size: 12px;
+}
+.detail2{
+    font-size: 14px;
+}
+.one {
+    width: 90%;
+    margin-top: 2%;
+float: none;
+    display:block;
+}
+.two {
+    width: 90%;
+     margin-top: 2%;
+    float: none;
+    display:block;
+}
+.three {
+    width: 95%;
+     margin-top: 2%;
+    float: none;
+    display:block;
+}
+}
+
+
+
+@media screen and (max-width: 980px) {
+    .firsttext {
+    width: 45%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .firsttext {
+    width: 48%; 
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .firsttext {
+    width: 300px; 
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .container{
+    width: 320px; 
+   }
+}
+

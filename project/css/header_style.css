@@ -1,0 +1,29 @@
+/*@import url('https://fonts.googleapis.com/css?family=Orbitron:700');*/
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 22px;
+    border-bottom: solid #DC7633 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2em;
+    color: #DC7633;
+}
+
+
+.footer1 {
+	text-align: center;
+    background-color: black;
+    padding: 8px;
+    border-top: : solid #DC7633 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    color: #DC7633;
+}

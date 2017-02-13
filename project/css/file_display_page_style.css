@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    background-color: #fffff;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+table {
+    border-collapse: separate;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+th,td {
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color:   #DCDCDC;
+    color: black;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color:       #A9A9A9 ;
+    color: black;
+    text-align: center;
+}
+
+th {
+    background-color: #DC7633 ;
+    color: white;
+}
+
+ul{
+    background-color:   #A9A9A9;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffff;
+}
+
+h3 {
+    text-align: center;
+    color: #DC7633
+}
+
+.error_msg {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #DC7633;
+}
+
+ a.acti:hover{
+    background-color: white;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+ a.acti:visited{
+    background-color: white;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+a:link, a:visited {
+    background-color:   #A9A9A9 ;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color:#A9A9A9;
+    padding: 5px 10px;
+}
+
+.select-style {
+    border: 3px solid #A9A9A9;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #ffffff url("http://localhost/project/down.png") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+     margin: auto;
+     display: block;
+     text-align: center;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+ a.logout:hover{
+    background-color: #DC7633;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid white 2px;
+    position:absolute;
+    right:0px;
+}
+
+ a.logout:link, a.logout:active , .logout:visited{
+    background-color: white;
+    color: #DC7633;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid #DC7633 2px;
+    position:absolute;
+    right:0px;
+}
+.nav{
+    width: 100%;
+}
+.mssgs {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #DC7633;
+}
+
+.select-style{
+  display: none;
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+      nav ul     { display: none; }
+  .select-style{ display: inline-block; }
+}
+
+

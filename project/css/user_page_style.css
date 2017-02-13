@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    background-color: #fffff;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mssgs {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #DC7633;
+}
+
+.error_msg {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #DC7633;
+}
+
+ul{
+    background-color:   #A9A9A9;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #ffffff;
+}
+
+ a.logout:hover{
+    background-color: #DC7633;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid white 2px;
+    position:absolute;
+    right:0px;
+}
+
+ a.logout:link, a.logout:active , .logout:visited{
+    background-color: white;
+    color: #DC7633;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid #DC7633 2px;
+    position:absolute;
+    right:0px;
+}
+
+ a.acti:hover{
+    background-color: white;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+ a.acti:visited{
+    background-color: white;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+a:link, a:visited {
+    background-color:   #A9A9A9 ;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color:#A9A9A9;
+    padding: 5px 10px;
+}
+
+.nav{
+    width: 100%;
+}

@@ -1,0 +1,122 @@
+/* Full-width input fields */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 2% 2%;
+    margin: 3% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+label{
+    color: white;
+    font-size: 15px;
+font-family: 'Raleway', sans-serif;
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 5px 15px;
+    text-align: left;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color:gray;
+    padding: 5px 15px;
+}
+
+.home{
+	    padding: 2% 2%;
+}
+body {
+    background-image: url("http://localhost/project/name4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2% 3%;
+    margin: 3% 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 24px;
+}
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 4% 0 3% 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    position: relative;
+}
+
+
+.container {
+    padding: 3%;
+}
+
+span.password {
+    float: right;
+    padding-top: 3%;
+}
+
+h2{
+text-align:center;
+margin: 10% auto 0% auto;
+font-family: 'Raleway', sans-serif;
+font-size: 30px;
+color: white;
+
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+    margin: 10% auto auto auto; /* 5% from the top, 15% from the bottom and centered */
+    border-radius: 3%;
+    width: 30%; 
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+}
+
+
+@media screen and (max-width: 1400px) {
+   .modal-content {
+    margin: 10% auto auto auto; 
+    width: 32%; 
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .modal-content {
+    margin: 12% auto auto auto; 
+    width: 45%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal-content {
+    margin: 15% auto auto auto; 
+    width: 48%; 
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .modal-content {
+    margin: 20% auto auto auto; 
+    width: 300px; 
+    }
+}

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    background-color: #fffff;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+table {
+    border-collapse: separate;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    font-family: 'Raleway', sans-serif;
+}
+.error_msg {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #DC7633;
+}
+
+th,td {
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color:   #DCDCDC;
+    color: black;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color:       #A9A9A9 ;
+    color: black;
+    text-align: center;
+}
+
+th {
+    background-color: #DC7633 ;
+    color: white;
+}
+
+ul{
+    background-color:   #A9A9A9;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #ffffff;
+}
+.tabs {
+    background-color: #f1948a;
+    border: solid black 1px;
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    border-radius: 3px;
+}
+
+
+.mssgs {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #DC7633;
+}
+ a.logout:hover{
+    background-color: #DC7633;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid white 2px;
+    position:absolute;
+    right:0px;
+}
+
+ a.logout:link, a.logout:active , .logout:visited{
+    background-color: white;
+    color: #DC7633;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid #DC7633 2px;
+    position:absolute;
+    right:0px;
+}
+
+ a.acti:hover{
+    background-color: white;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+       
+}
+ a.acti:visited{
+    background-color: white;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+       
+}
+
+a:link, a:visited {
+    background-color:   #A9A9A9 ;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color:#A9A9A9;
+    padding: 5px 10px;
+}
+
+.select-style {
+    border: 3px solid #A9A9A9;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #ffffff url("http://localhost/project/down.png") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+     margin: auto;
+     display: block;
+     text-align: center;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.nav{
+    width: 100%;
+}
+
+.select-style{
+  display: none;
+}
+
+.one {
+    border-collapse: separate;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin-top: auto;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+}
+.two {
+    border-collapse: separate;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    margin-top: auto;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width: 50px) and (max-width: 768px) {
+      nav ul     { display: none; }
+  .select-style{ display: inline-block; }
+}

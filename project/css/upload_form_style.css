@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+    background-color: white;
+    background-image: url("http://localhost/project/white.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container3  input{
+    width: 100%;
+    padding: 2% 2%;
+    margin: 2% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.modal-content3 {
+    margin: 2% auto auto auto; /* 5% from the top, 15% from the bottom and centered */
+    border-radius: 3%;
+    border: 2px solid #DC7633;
+    width: 30%;
+    background-color: rgb(169,169,169); /* Fallback color */
+    background-color: rgba(169,169,169,0.5); /* Black w/ opaci*/
+}
+
+
+.drop {
+    width: 100%;
+    padding: 2% 2%;
+    margin: 3% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    /*background-color: #FF4500;*/
+    background-color: #DC7633;
+    color: white;
+    padding: 2% 3%;
+    margin: 3% 0;
+    /*padding: 14px 20px;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0px;*/
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container3 {
+    padding: 3% 3% 2% 3%;
+}
+
+/*.dropall {
+    padding: 12px 20px;
+}*/
+
+label{
+    color: #DC7633;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.back-to-admin-portal {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 0 ;
+}
+
+
+ul{
+    background-color:   #A9A9A9;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffff;
+}
+
+
+a {
+    color: #DC7633;
+}
+
+b {
+    color: #DC7633;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+
+ a.acti:hover{
+    background-color: white;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+ a.acti:visited{
+    background-color: white;
+    color: #A9A9A9;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+a:link, a:visited {
+    background-color:   #A9A9A9 ;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: white;
+    color:#A9A9A9;
+    padding: 5px 10px;
+}
+
+.select-style {
+    border: 3px solid #A9A9A9;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #ffffff url("http://localhost/project/down.png") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+     margin: auto;
+     display: block;
+     text-align: center;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+ a.logout:hover{
+    background-color: #DC7633;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid white 2px;
+    position:absolute;
+    right:0px;
+}
+
+ a.logout:link, a.logout:active , .logout:visited{
+    background-color: white;
+    color: #DC7633;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid #DC7633 2px;
+    position:absolute;
+    right:0px;
+}
+.nav{
+    width: 100%;
+}
+
+
+.select-style{
+  display: none;
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+      nav ul     { display: none; }
+  .select-style{ display: inline-block; }
+	.modal-content3 {width: 70%;}
+
+}
+@media only screen and (max-width: 400px) {
+	.modal-content3 {width: 90%;}
+
+}
+
+.mssgs {
+    font-size: 13px;
+    color: white;
+    background-color: #DC7633;
+}
+
+b.boll {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
